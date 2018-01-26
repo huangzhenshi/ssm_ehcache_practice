@@ -1,0 +1,9 @@
+1.mysql  数据库，需要修改 jdbc.properties 里面配置的 mysql root的 密码。 并且创建webtest的数据库，导入 users.sql 里面的数据和创建用户表。
+2.加入到tomcat当中  访问  http://localhost:8080/webTest/login.do   （端口按照实际的tomcat的端口) 进入登录页面 
+
+
+
+项目集成了： 
+1）Spring   mvc mybatis   SSM
+2）用ehcache做了查询的二级缓存，通过 @Cacheable注解的方式
+3）对service层做了事务控制
